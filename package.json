@@ -1,0 +1,15 @@
+{
+  "name": "simple_http",
+  "version": "0.1.0",
+  "description": "My First Node App",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Eric Jinks",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.0.0"
+  },
+  "devDependencies": {}
+}

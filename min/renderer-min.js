@@ -1,0 +1,1 @@
+function mergeValues(e,r){for(var i in e)r=r.replace("{{"+i+"}}",e[i]);return r}function view(e,r,i){var n=fs.readFileSync("./views/"+e+".html",{encoding:"utf8"});n=mergeValues(r,n),i.write(n)}var fs=require("fs");module.exports.view=view;
